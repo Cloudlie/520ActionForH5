@@ -5,6 +5,11 @@ body {
     line-height: 1.5;
 }
 
+div{
+    margin: 0;
+    padding: 0;
+}
+
 .swiper-container {
     width: 100%;
     color: #fff;
@@ -272,7 +277,7 @@ img {
 
 .goodsOne_product {
     position: absolute;
-    height: 30%;
+    height: 34.42%;
 }
 
 .goodsOne_product img{
@@ -282,66 +287,64 @@ img {
 
 
 #goodsOne_upleft {
-    bottom: 30%;
-    width: 65%;
+    bottom: 34.42%;
+    width: 66%;
 }
 
 #goodsOne_upright {
-    right: 0px;
-    bottom: 30%;
-    width: 35%;
+    left: 66%;
+    bottom: 34.42%;
+    width: 34%;
 }
 
 #goodsOne_downleft {
     bottom: 0px;
-    width: 35%;
+    width: 33.21%;
 }
 
 #goodsOne_downright {
-    right: 0px;
+    left: 33.21%;
     bottom: 0px;
-    width: 65%;
+    width: 66.79%;
 }
 
 
 .goodsTwo_product{
     position: absolute;
-    height: 30%;
+    height: 33.63%;
 }
 
 .goodsTwo_product img{
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 }
 
 #goodsTwo_upleft {
-    left: 5%;
-    bottom: 42%;
-    width: 65%;
-    height: 30%;
+    left: 2.58%;
+    bottom: 42.63%;
+    width: 62.96%;
+    /*height: 30%;*/
 }
 
 #goodsTwo_upright {
-    left: 70%;
-    right: 0px;
-    bottom: 42%;
-    width: 25%;
-    height: 30%;
+    left: 65.54%;
+    bottom: 42.63%;
+    width: 31.87%;
+    /*height: 30%;*/
 }
 
 #goodsTwo_downleft {
-    left: 5%;
-    bottom: 10%;
-    width: 25%;
-    height: 30%;
+    left: 2.58%;
+    bottom: 8%;
+    width: 28.90%;
+    /*height: 30%;*/
 }
 
 #goodsTwo_downright {
-    left: 30%;
-    right: 0px;
-    bottom: 10%;
-    width: 65%;
-    height: 30%;
+    left: 31.48%;
+    bottom: 8%;
+    width: 65.93%;
+    /*height: 30%;*/
 }
 
 #logo_red {
@@ -387,7 +390,7 @@ img {
 
 #lib {
     position: absolute;
-    top: 92%;
+    top: 80%;
     left: 50%;
     margin-left: -115px;
     width: 230px;
@@ -412,20 +415,22 @@ img {
 .device .arrow-left {
     background: url('../img/arrow-3.png') no-repeat ;
     background-position: center;
+    background-size: 12px 22px;
     position: absolute;
-    left: 2%;
+    left: 1%;
     top: 10%;
-    width: 10%;
+    width: 8%;
     height: 80%;
     z-index: 10000;
 }
 .device .arrow-right {
     background: url('../img/arrow2-3.png') no-repeat ;
     background-position: center;
+    background-size: 12px 22px;
     position: absolute;
-    right: 2%;
+    right: 1%;
     top: 10%;
-    width: 10%;
+    width: 8%;
     height: 80%;
     z-index: 10000;
 }
@@ -461,3 +466,35 @@ img {
 .device .swiper-active-switch {
     background: #fff;
 }
+
+.div_download{
+    position: absolute;
+    bottom: 0px;
+    width:100%;
+    height:10%;
+    background-color: #999999;
+    /*filter: alpha(opacity=50);*/
+    /*-moz-opacity: 0.5;*/
+    /*opacity: 0.5;*/
+}
+
+.div_download img:first-child{
+    position: absolute;
+    top:50%;
+    left:5%;
+    margin:-17px 0 0 0 ;
+    z-index: 10000;
+    width:126px;
+    height:35px;
+}
+
+.div_download img:last-child{
+    position: absolute;
+    top:50%;
+    right:5%;
+    margin:-13px 0 0 0 ;
+    z-index: 10000;
+    width:55px;
+    height:26px;
+}
+
